@@ -27,13 +27,6 @@ bool CheckProcessIsTrusted() {
 */
 import "C"
 
-/*
-const ()
-
-//go:embed data
-var data embed.FS
-*/
-
 func init() {
 	runtime.LockOSThread()
 }
