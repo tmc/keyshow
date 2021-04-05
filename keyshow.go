@@ -27,10 +27,6 @@ bool CheckProcessIsTrusted() {
 */
 import "C"
 
-func init() {
-	runtime.LockOSThread()
-}
-
 // Options represents the runtime options for keyshow.
 type Options struct {
 	Screen int
